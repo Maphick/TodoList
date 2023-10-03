@@ -7,6 +7,8 @@ public class DataBase {
     private ArrayList<Note> notes = new ArrayList<>();
 
     private static DataBase instance = null;
+
+
     public static DataBase getInstance()
     {
         if (instance == null)
